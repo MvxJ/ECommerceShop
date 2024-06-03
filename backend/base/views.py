@@ -1,6 +1,8 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .products import products
+from .models import Product
+from .serializers import ProductSerializer
 
 @api_view(['GET'])
 def getRoutes(request):
@@ -19,14 +21,14 @@ def getRoutes(request):
 
 @api_view(['GET'])
 def getProducts(request):
-    return Response(products)
+    products = Product.objects.all()
+    serializer = ProductSerializer(products, many=True)
+
+    return Response(serializer.data)
 
 @api_view(['GET'])
 def getProduct(request, id):
-    product = None
-    for i in products:
-        if i['_id'] == id:
-            product = i
-            break
+    product = Product.objects.get(_id=id)
+    serializer = ProductSerializer(product)
 
-    return Response(product)
+    return Response(serializer.data)
