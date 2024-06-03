@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Fetch data from API, disable cors issue">
-      <change afterPath="$PROJECT_DIR$/backend/base/serializers.py" afterDir="false" />
+    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Add gitignore file">
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717399222578</updated>
-      <workItem from="1717399223282" duration="15486000" />
+      <workItem from="1717399223282" duration="19954000" />
     </task>
     <task id="LOCAL-00001" summary="Create project repository">
       <option name="closed" value="true" />
@@ -137,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717415059101</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create database schema, fetch data from database">
+      <option name="closed" value="true" />
+      <created>1717420350776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420350776</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add gitignore file">
+      <option name="closed" value="true" />
+      <created>1717420360417</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717420360417</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +184,8 @@
     <MESSAGE value="Add react router and style product detail page" />
     <MESSAGE value="Create backend django application" />
     <MESSAGE value="Fetch data from API, disable cors issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fetch data from API, disable cors issue" />
+    <MESSAGE value="Create database schema, fetch data from database" />
+    <MESSAGE value="Add gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore file" />
   </component>
 </project>
