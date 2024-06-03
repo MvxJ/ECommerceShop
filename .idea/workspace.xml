@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Add react frontend project">
-      <change afterPath="$PROJECT_DIR$/frontend/src/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Create base frontend structure">
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/airpods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/alexa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/mouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/playstation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public/images" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/public" />
     </key>
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717399222578</updated>
-      <workItem from="1717399223282" duration="2713000" />
+      <workItem from="1717399223282" duration="4091000" />
     </task>
     <task id="LOCAL-00001" summary="Create project repository">
       <option name="closed" value="true" />
@@ -91,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717400663351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create base frontend structure">
+      <option name="closed" value="true" />
+      <created>1717404245836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717404245836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project repository" />
     <MESSAGE value="Add react frontend project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add react frontend project" />
+    <MESSAGE value="Create base frontend structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create base frontend structure" />
   </component>
 </project>
