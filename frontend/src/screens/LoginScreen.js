@@ -18,7 +18,6 @@ function LoginScreen() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        console.log(redirect, userInfo)
         if (userInfo) {
             console.log('navigate')
             navigate(redirect !== '/' ? '/' + redirect : redirect)
