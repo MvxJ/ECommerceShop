@@ -19,7 +19,6 @@ function LoginScreen() {
 
     useEffect(() => {
         if (userInfo) {
-            console.log('navigate')
             navigate(redirect !== '/' ? '/' + redirect : redirect)
         }
     }, [userInfo, redirect]);
