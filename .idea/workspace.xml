@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Add redux store for working with API calls">
-      <change afterPath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/constants/cartConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/cartReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/screens/CartScreen.js" afterDir="false" />
+    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Create cart react logic, add items to cart remove items from cart.">
+      <change afterPath="$PROJECT_DIR$/backend/base/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1717399222578</updated>
       <workItem from="1717399223282" duration="24577000" />
-      <workItem from="1717443144126" duration="1401000" />
+      <workItem from="1717443144126" duration="2504000" />
+      <workItem from="1717482149049" duration="6474000" />
     </task>
     <task id="LOCAL-00001" summary="Create project repository">
       <option name="closed" value="true" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717432473628</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Create cart react logic, add items to cart remove items from cart.">
+      <option name="closed" value="true" />
+      <created>1717444623942</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717444623942</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="Create database schema, fetch data from database" />
     <MESSAGE value="Add gitignore file" />
     <MESSAGE value="Add redux store for working with API calls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add redux store for working with API calls" />
+    <MESSAGE value="Create cart react logic, add items to cart remove items from cart." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create cart react logic, add items to cart remove items from cart." />
   </component>
 </project>
