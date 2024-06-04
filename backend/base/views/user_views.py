@@ -37,7 +37,7 @@ def registerUser(request):
 
         return Response(serializer.data)
     except:
-        message = {'Detail: User with that name already exists.'}
+        message = {'detail': 'User with that name already exists.'}
 
         return Response(message, status=status.HTTP_400_BAD_REQUEST)
 
