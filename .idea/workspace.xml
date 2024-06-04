@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Create cart react logic, add items to cart remove items from cart.">
-      <change afterPath="$PROJECT_DIR$/backend/base/signals.py" afterDir="false" />
+    <list default="true" id="f57394de-8500-4b63-aa8c-2e9a02ea6d08" name="Changes" comment="Create user authentication logic, extend default jwt token logic">
+      <change afterPath="$PROJECT_DIR$/backend/base/urls/order_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/base/urls/product_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/base/urls/user_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/base/views/order_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/base/views/product_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/base/views/user_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/base/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <updated>1717399222578</updated>
       <workItem from="1717399223282" duration="24577000" />
       <workItem from="1717443144126" duration="2504000" />
-      <workItem from="1717482149049" duration="6474000" />
+      <workItem from="1717482149049" duration="7808000" />
     </task>
     <task id="LOCAL-00001" summary="Create project repository">
       <option name="closed" value="true" />
@@ -171,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717444623942</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create user authentication logic, extend default jwt token logic">
+      <option name="closed" value="true" />
+      <created>1717494500251</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717494500251</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +211,7 @@
     <MESSAGE value="Add gitignore file" />
     <MESSAGE value="Add redux store for working with API calls" />
     <MESSAGE value="Create cart react logic, add items to cart remove items from cart." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create cart react logic, add items to cart remove items from cart." />
+    <MESSAGE value="Create user authentication logic, extend default jwt token logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create user authentication logic, extend default jwt token logic" />
   </component>
 </project>
