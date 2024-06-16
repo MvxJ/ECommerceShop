@@ -1,3 +1,5 @@
+from datetime import timezone
+
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework import status
@@ -73,3 +75,15 @@ def getOrderById(request, id):
         return Response({'detail': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
     except:
         return Response({'detail': 'Order does not exists'}, status=status.HTTP_404_NOT_FOUND)
+
+@api_view(['PUT'])
+@permission_classes([IsAuthenticated])
+def updateOrderToPaid(request, id):
+    order = Order.objects.get(_id=id)
+
+    order.paid = True
+    order.paidAt = timezone.now()
+
+    order.save()
+
+    return Response({'detail': 'Order has been paid'}, status=status.HTTP_200_OK)
